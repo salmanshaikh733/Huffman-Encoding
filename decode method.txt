@@ -1,0 +1,22 @@
+/*// String target =code;
+        int i = 0;
+        BinaryTreeNode<HuffmanPair> node;
+        node = huffTree.getRoot();
+        while (i < code.length() && node!=null) {
+            if (code.charAt(i) == '0' && node != null) {
+                node = node.getLeft();
+                i++;
+            } else if (code.charAt(i) == '1' && node != null) {
+                node = node.getRight();
+                i++;
+            }
+            else if(node==null){
+                break;
+            }
+        }
+        if (node == null) {
+            return (char) 0;
+        }
+        else {
+            return node.getElement().getCharacter();
+        }*/
